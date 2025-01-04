@@ -1,0 +1,418 @@
+<html>
+<head>
+<title>MONTALBAN,RIZAL</title>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  //background: #f80;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #0080c0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Algerian', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #00a0ec; #ff0080; //#0080ff;
+}
+
+.nav a.active {
+  background-color: #8080ff;
+  color: #444;
+  cursor: default;
+}
+
+.menu {
+
+}
+
+/* Sub Menus */
+.nav li li {
+font-family:'arial', sans-serif;
+  font-size: .9em;
+}
+
+
+@media screen and (min-width: 650px) {
+  .nav li {
+    width: 210px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
+
+
+/***************Sliding image************************/
+
+* {
+	
+margin: 0;
+	
+padding: 0;
+	
+
+}
+
+
+
+body {
+	
+background: url('dark_geometric.png');
+
+}
+
+#container {
+	
+width: 800px;
+	
+overflow: hidden;
+	
+margin: 50px auto;
+	
+background: white;
+
+}
+
+
+/*header*/
+
+
+header {
+	
+width: 800px;
+	
+margin: 40px auto;
+
+}
+
+
+
+header h1 {
+	
+text-align: center;
+	
+font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+
+}
+
+
+
+header p {
+	
+font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+	
+text-align: justify;
+
+}
+
+
+
+/*photobanner*/
+
+
+.photobanner {
+	
+height: 233px;
+	
+width: 3550px;
+	
+margin-bottom: 80px;
+
+}
+
+
+
+.photobanner img {
+	
+-webkit-transition: all 0.5s ease;
+	
+-moz-transition: all 0.5s ease;
+	
+-o-transition: all 0.5s ease;
+	
+-ms-transition: all 0.5s ease;
+	
+transition: all 0.5s ease;
+
+}
+
+
+
+.photobanner img:hover {
+	
+-webkit-transform: scale(1.1);
+	
+-moz-transform: scale(1.1);
+	
+-o-transform: scale(1.1);
+	
+-ms-transform: scale(1.1);
+	
+transform: scale(1.1);
+	
+cursor: pointer;
+
+	
+-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	
+-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	
+box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+
+}
+
+
+
+
+/*keyframe animations*/
+
+.first {
+	
+-webkit-animation: bannermove 30s linear infinite;
+	
+-moz-animation: bannermove 30s linear infinite;
+	
+-ms-animation: bannermove 30s linear infinite;
+	
+animation: bannermove 30s linear infinite;
+
+}
+
+
+
+@keyframes "bannermove" {
+ 
+0% {
+    
+margin-left: 0px;
+ 
+}
+ 
+
+100% {
+    
+margin-left: -2125px;
+ 
+}
+
+
+}
+
+
+
+@-moz-keyframes bannermove {
+ 
+0% {
+   
+margin-left: 0px;
+ 
+}
+ 
+
+100% {
+   
+margin-left: -2125px;
+ 
+}
+
+
+}
+
+
+
+@-webkit-keyframes "bannermove" {
+ 
+0% {
+   
+margin-left: 0px;
+ 
+}
+ 
+
+100% {
+   
+margin-left: -2125px;
+ 
+}
+
+
+}
+
+
+
+@-ms-keyframes "bannermove" {
+ 
+0% {
+   
+margin-left: 0px;
+ 
+}
+ 
+
+100% {
+   
+margin-left: -2125px;
+ 
+}
+
+
+}
+
+
+
+@-o-keyframes "bannermove" {
+ 
+0% {
+   
+margin-left: 0px;
+ 
+}
+ 
+
+100% {
+   
+margin-left: -2125px;
+ 
+}
+
+
+}
+
+
+
+/****************************************************/
+
+</style>
+
+</head>
+
+
+
+
+<body >
+
+
+<div class="nav">
+<ul class="menu">
+<li class="home"><a class="active">Home</a></li>
+<li class="history"><a>History</a>
+<ul>
+<li><a href="place.html">Place</a></li>
+<li><a href="mission.html">Mission</a></li>
+<li><a href="vission.html">Vission</a></li>
+</ul>
+</li>
+<li class="officials"><a href="officials.html">Officials</a></li>
+        
+<li class="culture"><a>Culture</a>
+<ul>
+<li><a href="belief.html">Beliefs/Traditions</a></li>
+<li><a href="places.html">Places</a></li>
+<li><a href="food.html">Foods/Festival</a></li>
+</ul>
+</li>
+<li class="others"><a >Other</a>
+<ul>
+<li><a href="contributor.html">Contributor</a></li>
+<li><a href="documentation.html">Documentation</a></li>
+<li><a href="reference.html">Reference</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+<!--<img src="CITY LOGO.jpg" width="500px" height="500px">-->
+
+<div id="container">
+	    
+<header>
+		    
+<h1>Welcome to Montalban, Rizal</h1>
+		    
+</header>
+	    
+	    
+
+<div class="photobanner">
+	    	
+<img class="first" src="image-1.png" alt="" width="">
+	    	
+<img src="image-2.png" alt="">
+	    	
+<img src="image-3.png" alt="">
+	    	
+<img src="image-4.png" alt="">
+	    	
+<img src="image-5.png" alt="">
+	    	
+<img src="image-1.png" alt="">
+	    	
+<img src="image-2.png" alt="">
+	    	
+<img src="image-3.png" alt="">
+	    	
+<img src="image-4.png" alt="">
+	
+	    
+</div>
+	
+</div>
+
+
+
+</body>
+</htmL>
